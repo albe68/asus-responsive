@@ -1,0 +1,239 @@
+*{
+    font-family: 'Almarai', sans-serif;
+
+}
+
+.slide-1 {
+    background: url("img/corasel-img1.jpg");
+    background-position: center;
+    height: 95vh;
+    background-size: cover;
+  }
+  @media screen and (max-width: 992px) {
+    .slide-1 {
+      background: url("img/corasel-img1.jpg");
+      background-position: center;
+      height: 95vh;
+      background-size: cover;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .slide-1 {
+      background: url("img/corasel-img1.jpg");
+      background-position: center;
+      height: 95vh;
+      background-size: cover;
+    }
+  }
+  .slide-2 {
+    background: url("img/corasel-img2.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  @media screen and (max-width: 992px) {
+    .slide-2 {
+      background: url("img/corasel-img2.jpg");
+      background-position: center;
+      height: 95vh;
+      background-size: cover;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .slide-2 {
+      background: url("img/corasel-img2.jpg");
+      background-position: center;
+      height: 95vh;
+      background-size: cover;
+    }
+  }
+  
+  .slide-3 {
+    background: url("img/corasel-img3.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .slide-3 {
+      background: url("img/corasel-img3.jpg");
+      background-position: center;
+      height: 95vh;
+      background-size: cover;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .slide-3 {
+      background: url("img/corasel-img3.jpg");
+      background-position: center;
+      height: 95vh;
+      background-size: cover;
+    }
+  }
+  
+  .slide-4 {
+    background: url("img/corasel-img1.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  @media screen and (max-width: 992px) {
+    .slide-4 {
+      background: url("img/corasel-img1.jpg");
+      background-position: center;
+      height: 95vh;
+      background-size: cover;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .slide-4 {
+      background: url("img/corasel-img2.jpg");
+      background-position: center;
+      height: 95vh;
+      background-size: cover;
+    }
+  }
+  .slide-5 {
+    background: url("img/corasel-img2.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  @media screen and (max-width: 992px) {
+    .slide-5 {
+      background: url("img/corasel-img2.jpg");
+      background-position: center;
+      height: 95vh;
+      background-size: cover;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .slide-5 {
+      background: url("img/corasel-img2.jpg");
+      background-position: center;
+      height: 95vh;
+      background-size: cover;
+    }
+  }
+
+
+body{
+    
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.nav-link:hover{
+    color: white;
+    background: #0D6EFD;
+    border-radius: 15px;
+}
+
+.about{
+    background: #f00;
+    background-image: url("img/GROUP_SHOT-p-2000.jpg");
+
+}
+
+.services{
+    background-image: url("img/nyjah-poster.jpg");
+   color: whitesmoke;
+    width: 100%;
+
+
+}
+
+.row{
+    width: 100%;
+}
+
+
+
+/* responsive css */
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    
+.card{
+    margin-bottom: 30px;
+}
+img{
+    width: 100%;
+}
+}
+
+@media only screen and(max-width:767px) {
+.navbar-nav{
+    text-align: center;
+
+
+}
+img{
+    width: 100%;
+}
+    }
+
+    .btn1{
+        
+        height: 50px;
+        border-radius: 5px;
+
+    }
+
+    .btn1:hover{
+        background: #0D6EFD;
+    }
+
+    
+
+    .add-to {
+        height: 50px;
+        border-radius: 5px;
+        background: white;
+    }
+
+    .buy{ height: 50px;
+        border-radius: 5px;
+        color: white;
+        background: #0D6EFD;
+    }
+
+    .rog-1 li{
+        font-size: 20px;
+        line-height: 50px;  
+
+    }
+    
+    .card
+    {
+        border-color: black;
+       
+    }
+    
+
+
+.footer-list ul{
+    list-style: none;
+}
+.footer-list p{
+    text-decoration-style: solid;
+}
+.footer-img li{
+  display: inline;
+  
+
+}
+.footer-img img{
+  width: 17%;
+}
+
+
+
+
+
+.series{
+    width: 100px;
+    object-fit: fill;
+}
+
+.align{
+  margin-left: 25px;
+}
